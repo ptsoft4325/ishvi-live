@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import axios from "axios";
+
+
+// axios.defaults.baseURL = "https://erp.bscglobaledu.com/mapi/JsonApi";
+// axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
+// axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
 
 ReactDOM.render(
   <React.StrictMode>
